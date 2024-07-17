@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pizzorino - Best Pizza in Town</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Add CSS file later -->
+  </head>
+  <body>
+    <!-- Header with Navigation Bar -->
+    <header>
+      <div class="logo">
+        <img src="logo.png" alt="Pizzorino Logo" />
+        <h1>Pizzorino</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#presentation">Presentation</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#recipes">Our Recipes</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- First Section: Presentation of Your Shop -->
+    <section id="presentation">
+      <h2>Welcome to Pizzorino</h2>
+      <div class="shop-presentation">
+        <img src="shop.png" alt="Pizza Shop" />
+        <p>
+          Discover the finest pizzas made with love and passion at Pizzorino. We
+          guarantee freshness and quality in every bite.
+        </p>
+      </div>
+    </section>
+
+    <!-- Second Section: Description of Pizzorino -->
+    <section id="about">
+      <h2>About Pizzorino</h2>
+      <div class="about-description">
+        <img src="staff.jpg" alt="Staff" />
+        <p>
+          Pizzorino is a family-owned pizzeria dedicated to serving authentic
+          Italian pizzas. Located in the heart of the city, we pride ourselves
+          on using only the freshest ingredients and traditional recipes.
+        </p>
+        <p>Visit us today and experience the true taste of Italy!</p>
+      </div>
+    </section>
+
+    <!-- Third Section: Recipes for Krabby Pizza -->
+    <section id="recipes">
+      <h2>Our Krabby Pizza Recipes</h2>
+      <div class="recipe">
+        <h3>Krabby Classic</h3>
+        <p>Tomato sauce, mozzarella cheese, pepperoni, mushrooms, olives</p>
+      </div>
+      <div class="recipe">
+        <h3>Krabby Supreme</h3>
+        <p>Tomato sauce, mozzarella cheese, sausage, bell peppers, onions</p>
+      </div>
+      <div class="recipe">
+        <h3>Krabby Veggie Delight</h3>
+        <p>
+          Tomato sauce, mozzarella cheese, spinach, tomatoes, onions, bell
+          peppers
+        </p>
+      </div>
+      <div class="recipe">
+        <h3>Krabby Meat Lover's</h3>
+        <p>Tomato sauce, mozzarella cheese, pepperoni, sausage, bacon</p>
+      </div>
+    </section>
+
+    <!-- Fourth Section: Contact Form -->
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <form action="submit_form.php" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required />
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-content">
+        <p>&copy; 2024 Pizzorino. All rights reserved.</p>
+        <ul class="social-media">
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">Instagram</a></li>
+        </ul>
+        <p>Phone: +1-123-456-7890</p>
+      </div>
+    </footer>
+  </body>
+</html>
